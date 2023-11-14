@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Logo } from "../logo/Logo";
 import { Dropdown } from "../dropDown/Dropdown";
 import "./style.css";

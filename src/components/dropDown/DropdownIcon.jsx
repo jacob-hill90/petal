@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import { useState, useEffect } from "react";
 import "./style.css";
 
 export const DropdownIcon = ({ menuClick, setMenuClick }) => {
