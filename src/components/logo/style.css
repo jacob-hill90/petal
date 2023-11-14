@@ -1,0 +1,14 @@
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.logo-text {
+  font-family: Agbalumo;
+  font-size: 100%;
+}
+
+.logo {
+  height: 2rem;
+}

@@ -1,0 +1,8 @@
+.navBarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  font-size: 5rem;
+  padding: 0.4rem 7rem;
+}
