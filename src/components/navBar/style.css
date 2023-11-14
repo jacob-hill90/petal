@@ -1,14 +1,16 @@
 .navBarWrapper {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #e5f4ec;
   font-size: 5rem;
-  padding: 0.4rem 7rem;
+  padding: 0.4rem 1rem;
 }
 
 @media screen and (max-width: 450px) {
   .navBarWrapper {
-    padding: 0.4rem 1rem;
+    padding: 0;
   }
 }

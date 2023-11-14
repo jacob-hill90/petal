@@ -1,7 +1,8 @@
 .dropdown-container {
-  width: 80px;
+  width: 60px;
   cursor: pointer;
   transition: 500ms;
+  margin-right: 4rem;
 }
 
 .dropdown-container-clicked {
