@@ -4,8 +4,11 @@ import "./style.css";
 export const Logo = () => {
   return (
     <div className="logo-wrapper">
-      <div className="logo-text">Petal</div>
-      <img src={LogoPetal} className="logo"></img>
+      <img
+        src={LogoPetal}
+        className="logo"
+        onClick={() => window.location.reload()}
+      ></img>
     </div>
   );
 };

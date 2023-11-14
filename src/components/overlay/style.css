@@ -1,0 +1,17 @@
+.overlay-container {
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  background-color: rosybrown;
+  display: flex;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.overlay-container-clicked {
+  visibility: visible;
+}

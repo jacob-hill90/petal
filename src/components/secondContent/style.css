@@ -1,6 +1,15 @@
 .second-content-wrapper {
-  background: rgb(168,196,190);
-  background: linear-gradient(0deg, rgba(168,196,190,1) 0%, rgba(133,195,80,1) 100%);
-  max-width: 90vw;
+  background: rgb(168, 196, 190);
+  background: linear-gradient(
+    0deg,
+    rgba(168, 196, 190, 1) 0%,
+    rgba(133, 195, 80, 1) 100%
+  );
   padding: 2rem 4rem;
+}
+
+@media screen and (max-width: 450px) {
+  .second-content-wrapper {
+    padding: 0.4rem 2rem;
+  }
 }

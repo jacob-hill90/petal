@@ -1,9 +1,15 @@
 import clsx from "clsx";
 import "./style.css";
 
-export const DropdownIcon = ({ menuClick, setMenuClick }) => {
+export const DropdownIcon = ({
+  menuClick,
+  setMenuClick,
+  overlayActive,
+  setOverlayActive,
+}) => {
   const handleMenuClick = () => {
     setMenuClick(!menuClick);
+    setOverlayActive(!overlayActive);
   };
   return (
     <>
