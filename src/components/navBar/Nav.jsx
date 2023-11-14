@@ -1,9 +1,9 @@
-import { Logo } from "../logo/Logo";
-import { Dropdown } from "../dropDown/Dropdown";
 import { useEffect, useState } from "react";
+import { Logo } from "../Logo/Logo";
 import "./style.css";
+import Dropdown from "../dropDown/Dropdown";
 
-export const Nav = ({ overlayActive, setOverlayActive }) => {
+export const Nav = () => {
   const [navbarHeight, setNavbarHeight] = useState(92);
   const [logoHeight, setLogoHeight] = useState(4);
 
@@ -25,10 +25,18 @@ export const Nav = ({ overlayActive, setOverlayActive }) => {
   return (
     <div className="navBarWrapper" style={{ height: `${navbarHeight}px` }}>
       <Logo logoHeight={logoHeight} />
-      <Dropdown
-        overlayActive={overlayActive}
-        setOverlayActive={setOverlayActive}
-      />
+      <Dropdown />
+      <div className="nav-link-container">
+        <a className="nav-link" href="/about">
+          About
+        </a>
+        <a className="nav-link" href="/blog">
+          Blog
+        </a>
+        <a className="nav-link" href="/forms">
+          Forms
+        </a>
+      </div>
     </div>
   );
 };

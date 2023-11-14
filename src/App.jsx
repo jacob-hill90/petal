@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ROUTES } from "./constants/routes";
-import { Nav } from "./components/navBar/Nav";
-import { FirstContent } from "./components/firstContent/FirstContent";
-import { SecondContent } from "./components/secondContent/secondContent";
+import { Nav } from "./components/NavBar/Nav";
 import { useState } from "react";
-import { Overlay } from "./components/overlay/Overlay";
-import { Buttons } from "./components/buttons/Buttons";
-import { Forms } from "./components/forms/Forms";
-import { Login } from "./components/login/Login";
-import { Home } from "./components/homepage/Home";
+import { Overlay } from "./components/Overlay/Overlay";
+import { Buttons } from "./components/Buttons/Buttons";
+import { Forms } from "./components/Forms/Forms";
+import { Login } from "./components/Login/Login";
+import { Home } from "./components/Home/Home";
+import { About } from "./components/About/About";
+import { Blog } from "./components/Blog/Blog";
 import "./App.css";
 
 function App() {
@@ -17,12 +17,11 @@ function App() {
     <>
       <BrowserRouter>
         <Overlay overlayActive={overlayActive} />
-        <Nav
-          overlayActive={overlayActive}
-          setOverlayActive={setOverlayActive}
-        />
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path={ROUTES.ABOUT} element={<About />} />
+          <Route path={ROUTES.BLOG} element={<Blog />} />
           <Route path={ROUTES.BUTTONS} element={<Buttons />} />
           <Route path={ROUTES.FORMS} element={<Forms />} />
           <Route path={ROUTES.LOGIN} element={<Login />} />

@@ -3,6 +3,7 @@
   cursor: pointer;
   transition: 500ms;
   margin-right: 4rem;
+  display: block;
 }
 
 .dropdown-container-clicked {
@@ -45,4 +46,10 @@
 .three-clicked {
   transform: rotate(-45deg) translateX(18px);
   width: 70px;
+}
+
+@media screen and (min-width: 450px) {
+  .dropdown-container {
+    display: none;
+  }
 }
