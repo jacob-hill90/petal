@@ -1,3 +1,10 @@
 .first-content-wrapper {
-  background-color: green;
+  background: rgb(168, 196, 190);
+  background: linear-gradient(
+    0deg,
+    rgba(168, 196, 190, 1) 0%,
+    rgba(80, 176, 195, 1) 100%
+  );
+  max-width: 90vw;
+  padding: 2rem 4rem;
 }

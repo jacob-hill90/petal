@@ -1,3 +1,6 @@
 .second-content-wrapper {
-  background-color: blue;
+  background: rgb(168,196,190);
+  background: linear-gradient(0deg, rgba(168,196,190,1) 0%, rgba(133,195,80,1) 100%);
+  max-width: 90vw;
+  padding: 2rem 4rem;
 }
