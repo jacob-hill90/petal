@@ -1,10 +1,13 @@
 import { FirstContent } from "../FirstContent/FirstContent";
 import { SecondContent } from "../SecondContent/secondContent";
 
-export const Home = () => {
+export const Home = ({ setSelectedCard, selectedCard }) => {
   return (
     <>
-      <FirstContent />
+      <FirstContent
+        setSelectedCard={setSelectedCard}
+        selectedCard={selectedCard}
+      />
       <SecondContent />
     </>
   );
