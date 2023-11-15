@@ -7,7 +7,27 @@
   );
   padding: 2rem 4rem;
   margin-top: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.card-wrapper{
+  max-width: 90vw;
+  display:block;
+  padding: 4rem;
+  background-color: rgb(183, 197, 192);
+}
+
+.card{
+  width: 100px;
+  height: 500px;
+  margin: 0px 20px 0px 0px;
+  background-color: whitesmoke;
+  box-shadow: 10px 5px 5px red;
+}
+
+
 
 @media screen and (max-width: 450px) {
   .first-content-wrapper {
