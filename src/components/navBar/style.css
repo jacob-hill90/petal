@@ -6,20 +6,20 @@
   justify-content: space-between;
   align-items: center;
   background-color: #e5f4ec;
-  font-size: 2rem;
+  font-size: 1.4rem;
   padding: 0.4rem 1rem;
 }
 
 .nav-link-container {
-  margin-right: 4rem;
+  margin-right: 6rem;
   display: flex;
-  max-width: 800px;
 }
 
 .nav-link {
   padding: 0 4rem;
   text-decoration: none;
   color: black;
+  font-family: fantasy;
 }
 
 @media screen and (max-width: 450px) {

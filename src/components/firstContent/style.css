@@ -12,22 +12,30 @@
   align-items: center;
 }
 
-.card-wrapper{
-  max-width: 90vw;
-  display:block;
-  padding: 4rem;
-  background-color: rgb(183, 197, 192);
+.card-wrapper {
+  max-width: 95vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 0.4rem;
 }
 
-.card{
-  width: 100px;
-  height: 500px;
-  margin: 0px 20px 0px 0px;
+.card {
+  width: 360px;
+  height: 600px;
+  margin: 20px 20px 20px 20px;
   background-color: whitesmoke;
-  box-shadow: 10px 5px 5px red;
+  box-shadow: 10px 5px 5px rgb(0 0 0 / 30%);
+  transition: 600ms;
+  border-radius: 0.4rem;
+  cursor: pointer;
 }
 
-
+.card:hover {
+  background-color: rgb(208, 208, 208);
+  box-shadow: 10px 5px 5px rgb(0 0 0 / 45%);
+}
 
 @media screen and (max-width: 450px) {
   .first-content-wrapper {
