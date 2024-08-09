@@ -33,6 +33,7 @@ export const Nav = () => {
         <a className="nav-link" href="/blog">
           Blog
         </a>
+        <div className="center-logo">CenterLogo</div>
         <a className="nav-link" href="/forms">
           Forms
         </a>

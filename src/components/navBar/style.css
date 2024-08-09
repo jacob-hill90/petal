@@ -23,6 +23,13 @@
   font-weight: 500;
 }
 
+.center-logo{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
 @media screen and (max-width: 450px) {
   .navBarWrapper {
     padding: 0;

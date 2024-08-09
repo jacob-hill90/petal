@@ -9,6 +9,8 @@ export const FirstContent = ({ setSelectedCard, selectedCard }) => {
     { test: false, another_test: true, name: "carl" },
     { test: true, another_test: false, name: "denny" },
     { test: false, another_test: true, name: "frank" },
+    { test: true, another_test: false, name: "denny" },
+    { test: false, another_test: true, name: "frank" },
   ];
 
   const handleJobItemClick = (id) => {
